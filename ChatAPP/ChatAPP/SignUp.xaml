@@ -1,0 +1,24 @@
+﻿<Window x:Class="ChatAPP.SignUp"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ChatAPP"
+        mc:Ignorable="d"
+        Title="SignUp" Height="300" Width="300">
+    <Grid Background="Beige">
+        <StackPanel HorizontalAlignment="Center">
+            <Label FontSize="44" HorizontalAlignment="Center" VerticalAlignment="Top">
+                Chat APP
+            </Label>
+            <Label FontSize="12" HorizontalAlignment="Center">User Name:</Label>
+            <TextBox Name="TxtUserNameSignUP" FontSize="18" Height="30" Width="150"></TextBox>
+            <Label FontSize="12" HorizontalAlignment="Center" >Password :</Label>
+            <TextBox Name="TxtPasswordSignUp" MaxLength="30" FontSize="18" Height="30" Width="150"></TextBox>
+            <Button HorizontalAlignment="Center" FontWeight="Bold" FontSize="18" Height="30" Width="100" Margin="1,40,1,1" Click="Button_Click">
+                SignUp
+            </Button>
+            
+        </StackPanel>
+    </Grid>
+</Window>
